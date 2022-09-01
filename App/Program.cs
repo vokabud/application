@@ -1,9 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Domain;
+﻿using Domain;
 
 var a = new MyEntity
 {
     Id = 1,
+    Name = "test",
+    Age = 22
 };
 
-Console.WriteLine(a.Id);
+Console.WriteLine($"{a.Id} {a.Name}");
