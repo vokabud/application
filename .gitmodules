@@ -1,5 +1,0 @@
-[submodule "modules/Domain"]
-	path = modules/Domain
-	url = https://github.com/vokabud/module.git
-	branch = dev
-	fetchRecurseSubmodules = true
